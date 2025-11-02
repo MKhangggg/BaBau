@@ -16,16 +16,17 @@ const LoginForm = () => {
 
       {/* Form đăng nhập */}
       <form className="space-y-5">
-        <input
-          type="text"
-          placeholder="Tên tài khoản"
-          className="w-full border rounded-lg p-3 text-base focus:outline-sky-400"
-        />
-        <input
-          type="password"
-          placeholder="Mật khẩu"
-          className="w-full border rounded-lg p-3 text-base focus:outline-sky-400"
-        />
+         <input
+            type="text"
+            placeholder="Tên tài khoản"
+            className="w-full border rounded-lg p-3 text-base focus:outline-sky-400"
+          />
+
+          <input
+            type="password"
+            placeholder="Mật khẩu"
+            className="w-full border rounded-lg p-3 text-base focus:outline-sky-400"
+          />
 
         <div className="flex justify-between text-sm">
           <a href="#" className="text-sky-600 hover:underline">
